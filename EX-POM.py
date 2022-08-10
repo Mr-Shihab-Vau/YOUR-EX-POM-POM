@@ -388,12 +388,12 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[132m
-\033[1;32m __  __         _____ _    _ _____ _    _          ____  
-\033[1;32m|  \/  |       / ____| |  | |_   _| |  | |   /\   |  _ \ 
-\033[1;32m| \  / |_ __  | (___ | |__| | | | | |__| |  /  \  | |_) |
-\033[1;32m| |\/| | '__|  \___ \|  __  | | | |  __  | / /\ \ |  _ < 
-\033[1;32m| |  | | |     ____) | |  | |_| |_| |  | |/ ____ \| |_) |
-\033[1;32m|_|  |_|_|    |_____/|_|  |_|_____|_|  |_/_/    \_\____/ 
+ \033[1;32m __  __         _____ _    _ _____ _    _          ____  
+ \033[1;32m|  \/  |       / ____| |  | |_   _| |  | |   /\   |  _ \ 
+ \033[1;32m| \  / |_ __  | (___ | |__| | | | | |__| |  /  \  | |_) |
+ \033[1;32m| |\/| | '__|  \___ \|  __  | | | |  __  | / /\ \ |  _ < 
+ \033[1;32m| |  | | |     ____) | |  | |_| |_| |  | |/ ____ \| |_) |
+ \033[1;32m|_|  |_|_|    |_____/|_|  |_|_____|_|  |_/_/    \_\____/ 
   \033[1;32m══════════════════════════════════════════════════════════\33[m 
           \033[1;32mOwner  :   MR. SHIHAB\33[m 																	    
          \033[1;32mGithub  :   Mr-Shihab-Vau\33[m 	    			   						                    
@@ -1318,7 +1318,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://pastebin.com/p3jbWM14").text
+	r1=requests.get("https://github.com/Mr-Shihab-Vau/YOUR-EX-POM-POM/blob/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
